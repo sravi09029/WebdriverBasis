@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Listeners Suite]">
+  <listeners>
+    <listener class-name="cumListeners.Listeners"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+  </listeners>
+  <test thread-count="5" name="failure Test(failed)">
+    <classes>
+      <class name="selenium.TestNG.Examples.testFailure1">
+        <methods>
+          <include name="dologin"/>
+          <include name="success"/>
+        </methods>
+      </class> <!-- selenium.TestNG.Examples.testFailure1 -->
+    </classes>
+  </test> <!-- failure Test(failed) -->
+</suite> <!-- Failed suite [Listeners Suite] -->

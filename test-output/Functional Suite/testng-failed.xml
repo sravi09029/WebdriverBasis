@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Functional Suite]">
+  <listeners>
+    <listener class-name="cumListeners.Listeners"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+  </listeners>
+  <test thread-count="5" name="softasserts(failed)">
+    <classes>
+      <class name="selenium.TestNG.Examples.softasserts">
+        <methods>
+          <include name="openbrowser"/>
+          <include name="closebrowser"/>
+          <include name="validatestitles"/>
+        </methods>
+      </class> <!-- selenium.TestNG.Examples.softasserts -->
+    </classes>
+  </test> <!-- softasserts(failed) -->
+  <test thread-count="5" name="Skipping Test(failed)">
+    <classes>
+      <class name="selenium.TestNG.Examples.skipTestExample">
+        <methods>
+          <include name="openbrowser"/>
+          <include name="third"/>
+          <include name="closebrowser"/>
+          <include name="first"/>
+          <include name="five"/>
+        </methods>
+      </class> <!-- selenium.TestNG.Examples.skipTestExample -->
+    </classes>
+  </test> <!-- Skipping Test(failed) -->
+  <test thread-count="5" name="failure Test(failed)">
+    <classes>
+      <class name="selenium.TestNG.Examples.testFailure">
+        <methods>
+          <include name="dologin"/>
+        </methods>
+      </class> <!-- selenium.TestNG.Examples.testFailure -->
+    </classes>
+  </test> <!-- failure Test(failed) -->
+</suite> <!-- Failed suite [Functional Suite] -->

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Functional Suite">
+
+	<listeners>
+		<listener class-name="cumListeners.Listeners" />
+		<listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+	</listeners>
+
+	<!-- 
+	<test name="Dependence Test">
+		<classes>
+			<class name="selenium.TestNG.Examples.DependenciesExample" />
+		</classes>
+	 -->
+	 
+	<!-- <test name="Annations"> <classes> <class name="selenium.TestNG.Examples.Annations" 
+		/> </classes> </test> -->
+
+	<test name="softasserts">
+		<classes>
+			<class name="selenium.TestNG.Examples.softasserts" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Skipping Test">
+		<classes>
+			<class name="selenium.TestNG.Examples.skipTestExample" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="failure Test">
+		<classes>
+			<class name="selenium.TestNG.Examples.testFailure" />
+		</classes>
+	</test> <!-- Test -->
+
+
+</suite> <!-- Suite -->

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression Test]">
+  <listeners>
+    <listener class-name="cumListeners.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="selenium.TestNG.Examples.ValidationsCheck">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="validatestitles"/>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- selenium.TestNG.Examples.ValidationsCheck -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Regression Test] -->

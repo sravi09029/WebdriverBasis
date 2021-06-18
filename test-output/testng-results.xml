@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="805" started-at="2021-06-10T02:30:18Z" finished-at="2021-06-10T02:30:19Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="805" started-at="2021-06-10T02:30:18Z" finished-at="2021-06-10T02:30:19Z">
+      <class name="testNG.Parameterization.multipleData">
+        <test-method status="PASS" signature="TestUserLogin(java.util.Hashtable)[pri:0, instance:testNG.Parameterization.multipleData@6b09bb57]" name="TestUserLogin" duration-ms="11" started-at="2021-06-10T02:30:18Z" data-provider="db1" finished-at="2021-06-10T02:30:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{age=22.0, password=ravikumar, City=Pulivebdula, is_correct=correct, username=sampathiravikumar@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestUserLogin -->
+        <test-method status="PASS" signature="TestUserLogin(java.util.Hashtable)[pri:0, instance:testNG.Parameterization.multipleData@6b09bb57]" name="TestUserLogin" duration-ms="6" started-at="2021-06-10T02:30:18Z" data-provider="db1" finished-at="2021-06-10T02:30:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{age=33.0, password=Ravi@09029, City=kadapa, is_correct=fail, username=srks9441@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestUserLogin -->
+        <test-method status="PASS" signature="TestUserLogin(java.util.Hashtable)[pri:0, instance:testNG.Parameterization.multipleData@6b09bb57]" name="TestUserLogin" duration-ms="2" started-at="2021-06-10T02:30:18Z" data-provider="db1" finished-at="2021-06-10T02:30:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{age=44.0, password=tarun, City=Kadiri, is_correct=correct, username=rahul@gamil.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestUserLogin -->
+        <test-method status="PASS" signature="TestUserLogin(java.util.Hashtable)[pri:0, instance:testNG.Parameterization.multipleData@6b09bb57]" name="TestUserLogin" duration-ms="1" started-at="2021-06-10T02:30:18Z" data-provider="db1" finished-at="2021-06-10T02:30:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{age=66.0, password=iudftgeyr, City=Kadiri, is_correct=fail, username=ywetruwet}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestUserLogin -->
+        <test-method status="PASS" signature="TestUserLogin(java.util.Hashtable)[pri:0, instance:testNG.Parameterization.multipleData@6b09bb57]" name="TestUserLogin" duration-ms="5" started-at="2021-06-10T02:30:18Z" data-provider="db1" finished-at="2021-06-10T02:30:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{age=99.0, password=mxfvjhdhf, City=Blg, is_correct=fail, username=cvbxmcb}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestUserLogin -->
+        <test-method status="PASS" signature="TestUserReg(java.util.Hashtable)[pri:0, instance:testNG.Parameterization.multipleData@6b09bb57]" name="TestUserReg" duration-ms="1" started-at="2021-06-10T02:30:18Z" data-provider="db1" finished-at="2021-06-10T02:30:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{alerttext=Customer added successfully, postcode=A234wd, lastname=Arora, runmode=Y, firstname=Raman}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestUserReg -->
+        <test-method status="PASS" signature="TestUserReg(java.util.Hashtable)[pri:0, instance:testNG.Parameterization.multipleData@6b09bb57]" name="TestUserReg" duration-ms="2" started-at="2021-06-10T02:30:18Z" data-provider="db1" finished-at="2021-06-10T02:30:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{alerttext=Customer added successfully, postcode=A234wd, lastname=Arora, runmode=N, firstname=Rahul}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestUserReg -->
+        <test-method status="PASS" signature="TestUserReg(java.util.Hashtable)[pri:0, instance:testNG.Parameterization.multipleData@6b09bb57]" name="TestUserReg" duration-ms="2" started-at="2021-06-10T02:30:19Z" data-provider="db1" finished-at="2021-06-10T02:30:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{alerttext=Customer added successfully, postcode=A234wd, lastname=Arora, runmode=Y, firstname=Ishita}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestUserReg -->
+        <test-method status="PASS" signature="TestUserReg(java.util.Hashtable)[pri:0, instance:testNG.Parameterization.multipleData@6b09bb57]" name="TestUserReg" duration-ms="3" started-at="2021-06-10T02:30:19Z" data-provider="db1" finished-at="2021-06-10T02:30:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{alerttext=Customer added successfully, postcode=A234wd, lastname=Sehgal, runmode=Y, firstname=Rohit}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestUserReg -->
+      </class> <!-- testNG.Parameterization.multipleData -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

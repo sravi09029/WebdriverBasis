@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Suite]]">
+  <test thread-count="5" name="Test(failed)(failed)">
+    <groups>
+      <run>
+        <include name="Functional"/>
+        <exclude name="bvt"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="selenium.TestNG.Examples.groupsExamples">
+        <methods>
+          <include name="first"/>
+          <include name="validatestitles"/>
+          <include name="second"/>
+        </methods>
+      </class> <!-- selenium.TestNG.Examples.groupsExamples -->
+    </classes>
+  </test> <!-- Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->
